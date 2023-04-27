@@ -13,7 +13,7 @@ import { Pagination } from "swiper";
 export default function App() {
   return (
     <>
-      <section className="   bg-white ">
+      <section className=" pb-10 sm:pb-16  bg-white ">
         <div className="px-4 mx-auto max-w-[1200px] sm:px-6 lg:px-8 ">
           <h1 className="text-2xl text-center font-extrabold text-gray-700   pb-5 lg:text-[40px]">
             Inner Demo
@@ -49,10 +49,10 @@ export default function App() {
               clickable: true,
             }}
             breakpoints={{
-              425:{
-                width:425,
-                slidesPerView:1
-              }
+              425: {
+                width: 425,
+                slidesPerView: 1,
+              },
             }}
             modules={[Pagination]}
             className="mySwiper mt-3 text-green-950"
