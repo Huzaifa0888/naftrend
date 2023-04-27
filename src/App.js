@@ -8,7 +8,7 @@ function App() {
   <Header></Header>
   <HeroSection></HeroSection>
   <HomeDemo></HomeDemo>
-  {/* <InnerDemo></InnerDemo> */}
+  <InnerDemo></InnerDemo>
   
   </> 
   );

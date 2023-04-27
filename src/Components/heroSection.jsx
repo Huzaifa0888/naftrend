@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <>
       <section className="h-full  bg-[#212529]">
-        <section className="py-10  sm:py-16 lg:pt-[110px] lg:pb-[110px] ">
+        <section className="py-10 max-w-7xl mx-auto sm:py-16 lg:pt-[110px] lg:pb-[110px] ">
           <div className="px-4 mx-auto  sm:px-6 lg:px-0">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div className="max-w-[630px] ml-auto ">
@@ -12,14 +12,14 @@ function HeroSection() {
                     The Most Creatively Designed Template In Current Days
                   </h1>
                 <div className="mt-10 sm:flex sm:items-center sm:space-x-8">
-                  <button className="bg-white border-white border rounded-full py-4 font-bold text-red-500 px-8 text-[1.1rem]">
+                  <button className="bg-white border-white border rounded-full py-4 font-bold text-red-500 px-8 text-[1.1rem] hover:text-white hover:bg-red-500">
                     VIEW DEMO
                   </button>
                 </div>
               </div>
 
               <div>
-                <img className="w-full bg-cover" src="/banner-img.png" />
+                <img className="w-full bg-contain lg:pl-20" src="/banner-img.png" />
               </div>
             </div>
           </div>

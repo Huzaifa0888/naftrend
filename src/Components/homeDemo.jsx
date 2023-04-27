@@ -8,7 +8,7 @@ function HomeDemo() {
           <h1 className="text-2xl text-center font-extrabold text-gray-700   pb-5 lg:text-[40px]">
             Home Demo
           </h1>
-          <h1 className="text-2xl text-center font-normal text-gray-700 mx-auto w-[50%] pb-5 lg:text-[20px]">
+          <h1 className="text-2xl text-center font-normal text-gray-700 mx-auto lg:w-[50%] pb-5 lg:text-[20px]">
             Choose one of styles or cutomize easily your site following your
             ideas. More demos are coming soon.
           </h1>
@@ -34,10 +34,10 @@ function HomeDemo() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center flex-1 px-6 mt-20 py-8 w-[40%] mx-auto">
+        <div className="flex flex-col justify-center flex-1 px-6 mt-20 py-8 lg:w-[40%] mx-auto">
           <img src="/coming.png" alt="" className="" />
           <h1 className="text-2xl text-center mt-8 font-semibold text-gray-700   pb-5 lg:text-[25px]">
-            Comming Soon
+            Coming Soon
           </h1>
         </div>
       </section>
