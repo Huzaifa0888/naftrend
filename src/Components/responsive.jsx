@@ -21,10 +21,10 @@ function ImageSwitcher() {
     return (
       <>
         <section className="h-full  ">
-          <section className="py-10 w-[1200px] mx-auto max-w-7xl sm:py-16 lg:pt-[110px] lg:pb-[110px] ">
+          <section className="py-10 max-w-[1200px] mx-auto  sm:py-16 lg:pt-[110px] lg:pb-[110px] ">
             <div className="px-4   sm:px-6 lg:px-0">
               <div className="grid  grid-cols-1 md:grid-cols-2 gap-x-20">
-                <div className="">
+                <div className="w-96 mx-auto">
                   {currentImage === 1 && (
                     <img src="/mobile.png" alt="Image 1" />
                   )}
@@ -51,7 +51,8 @@ function ImageSwitcher() {
                     To Maximum Display Size To Ensure Usability And Satisfaction
                   </p>
 
-                  <div className="grid grid-cols-3 gap-x-7 w-[60%] mt-4">
+                  <div className="grid grid-cols-3  gap-x-7 w-[60%] mt-4">
+                   
                     <button
                       onClick={handleBtn1Click}
                       className="mt-3 border-2 rounded-md border-gray-400 p-4"
@@ -60,14 +61,14 @@ function ImageSwitcher() {
                     </button>
                     <button
                       onClick={handleBtn2Click}
-                      className="mt-3  border-2 rounded-md border-gray-400 p-4"
+                      className="mt-3  border-2 rounded-md  bordergray-400 p-4"
                     >
                       {" "}
                       <img src="/tab2.svg" alt="" />
                     </button>
                     <button
                       onClick={handleBtn3Click}
-                      className="mt-3  border-2 rounded-md border-gray-400 p-4"
+                      className="mt-3  border-2 rounded-md  border-gray-400 p-4"
                     >
                       <img src="/tab3.svg" alt="" />
                     </button>

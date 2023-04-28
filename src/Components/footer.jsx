@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <section className="py-10 sm:py-16 lg:pt-20  bgg  h-[600px]">
+      <section className="py-10  pt-20 pb-20 bgg  lg:h-[600px]">
         <div className="px-4 mx-auto max-w-[1200px] sm:px-6 lg:px-8 ">
           <div className="flex items-center mx-auto justify-center py-2 mb-5  skew-x-[-30deg]  lg:w-[21%] bg-[rgba(255,255,255,.1)]">
             <h1 className="text-2xl text-center font-normal text-white   lg:text-[18px]">
@@ -14,18 +14,18 @@ function Footer() {
             Build a Beautiful website and take your Business online
           </h1>
         </div>
-        <div className="flex justify-center border-b border-[#1d1d1d] pb-28 pt-10">
+        <div className="flex justify-center lg:border-b lg:border-[#1d1d1d] lg:pb-28 lg:pt-10">
           <button className="py-4 px-8 border-[#82b541] rounded-sm  text-white font-extrabold bg-[#82b541]">
             Buy This Theme
           </button>
         </div>
-        <div className="mx-auto max-w-[1100px] flex pt-10 justify-between">
-          <div className="w-[33%]">
+        <div className="mx-auto max-w-[1100px] flex lg:pt-10 flex-col item-center lg:flex-row lg:justify-between">
+          <div className="lg:w-[33%] mt-4">
             <h1 className="text-2xl text-center font-normal text-white   lg:text-[18px]">
               Copyright 2022 By Egens Theme
             </h1>
           </div>
-          <div className="w-[33%]">
+          <div className="lg:w-[33%] mt-4">
             <ul className="flex justify-center space-x-3 ">
               <li>
                 <a
@@ -118,7 +118,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-[33%]">
+          <div className="lg:w-[33%] mt-4">
             <h1 className="text-2xl text-center font-normal text-white   lg:text-[18px]">
               More Themes
             </h1>
