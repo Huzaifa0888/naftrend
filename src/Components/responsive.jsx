@@ -24,7 +24,7 @@ function ImageSwitcher() {
           <section className="py-10 max-w-[1200px] mx-auto  sm:py-16 lg:pt-[110px] lg:pb-[110px] ">
             <div className="px-4   sm:px-6 lg:px-0">
               <div className="grid  grid-cols-1 md:grid-cols-2 gap-x-20">
-                <div className="w-96 mx-auto">
+                <div className="w-[90%] mx-auto">
                   {currentImage === 1 && (
                     <img src="/mobile.png" alt="Image 1" />
                   )}

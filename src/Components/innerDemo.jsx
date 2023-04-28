@@ -53,10 +53,14 @@ export default function App() {
                 width: 425,
                 slidesPerView: 1,
               },
+              320: {
+                width: 320,
+                slidesPerView: 1,
+              },
             }}
             modules={[Pagination]}
-            className="mySwiper mt-3 h-[530px]   border border-slate-50 shadow-2xl "
-          > 
+            className="mySwiper mt-3 lg:h-[530px]   border border-slate-50 shadow-2xl "
+          >
             <SwiperSlide className="">
               <div className="flex flex-col justify-center flex-1 px-6 py-8 border border-slate-50 shadow-md  ">
                 <img src="/home1.png" alt="" className="" />
