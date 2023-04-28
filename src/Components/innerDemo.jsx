@@ -44,7 +44,7 @@ export default function App() {
           </div> */}
           <Swiper
             slidesPerView={3}
-            spaceBetween={-23}
+            spaceBetween={30}
             pagination={{
               clickable: true,
             }}
@@ -55,40 +55,40 @@ export default function App() {
               },
             }}
             modules={[Pagination]}
-            className="mySwiper mt-3 text-green-950"
+            className="mySwiper mt-3 h-[520px]   "
           >
             <SwiperSlide className="">
-              <div className="flex flex-col justify-center flex-1 px-6 py-8">
+              <div className="flex flex-col justify-center flex-1 px-6 py-8 border border-slate-50 shadow-md  ">
                 <img src="/home1.png" alt="" className="" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col justify-center flex-1 px-6 py-8">
+              <div className="flex flex-col justify-center flex-1 px-6 py-8 border border-slate-50 shadow-md ">
                 <img src="/home1.png" alt="" className="" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col justify-center flex-1 px-6 py-8">
+              <div className="flex flex-col justify-center flex-1 px-6 py-8 border border-slate-50 shadow-md">
                 <img src="/home1.png" alt="" className="" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col justify-center flex-1 px-6 py-8">
+              <div className="flex flex-col justify-center flex-1 px-6 py-8 border border-slate-50 shadow-md">
                 <img src="/home1.png" alt="" className="" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col justify-center flex-1 px-6 py-8">
+              <div className="flex flex-col justify-center flex-1 px-6 py-8 border border-slate-50 shadow-md">
                 <img src="/home1.png" alt="" className="" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col justify-center flex-1 px-6 py-8">
+              <div className="flex flex-col justify-center flex-1 px-6 py-8 border border-slate-50 shadow-md">
                 <img src="/home1.png" alt="" className="" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col justify-center flex-1 px-6 py-8">
+              <div className="flex flex-col justify-center flex-1 px-6 py-8 border border-slate-50 shadow-md">
                 <img src="/home1.png" alt="" className="" />
               </div>
             </SwiperSlide>

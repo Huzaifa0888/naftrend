@@ -122,7 +122,7 @@ export default function Example() {
                     >
                       <Dialog.Panel className="pointer-events-auto w-[470px] overflow-y-scroll">
                         <div className="flex h-fit flex-col  bg-[#212529] shadow-xl">
-                          <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
+                          <div className="  px-4 py-6 sm:px-6">
                             <div className="flex justify-between">
                               <img
                                 className="block h-12 w-auto "
